@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="extras/HereIsOneIPreparedEarlier.css">
+  
+</head>
+<body>
+  <div class="message-box" id="messages"></div>
+  <div class="table">
+    <img style="height: 100px; position: absolute; margin-left: 5px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; position: absolute; margin-left: 10px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; position: absolute; margin-left: 15px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; position: absolute; margin-left: 20px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; position: absolute; margin-left: 25px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; position: absolute; margin-left: 30px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; position: absolute; margin-left: 35px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; position: absolute; margin-left: 45px;" src="images/card_back.png" alt="">
+    <img style="height: 100px; display: inline;" src="images/card_back.png" alt="">
+    <div id="animate-dealer"></div>
+    <div id="animate-player"></div>
+    <div class="score">Wins:
+      <span id = "wins"></span>
+    </div>
+    <div class="score">Losses:
+      <span id = losses></span>
+    </div>
+    <div class="score">Cash:
+      <span id = "money">$500</span>
+    </div>
+    <div class="player">
+      <label class="player-name">Dealer: 
+        <span id="dealer-points" class="points"></span>
+      </label>
+      <div id="dealer-hand" class="hand">
+        <!-- Dealer Hand -->
+        
+      </div>
+    </div>
+    <div class="player">
+      <label class="player-name">Player: 
+        <span id="player-points" class="points"></span>
+      </label>
+      <div id="player-hand" class="hand">
+        <!-- Player Hand -->
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="deal-button" type="button">Deal</button>
+      <button id="hit-button" type="button">Hit</button>
+      <button id="stand-button" type="button">Stand</button>
+      <button id="deck-number" type="button">Decks: 1</button>
+      <button id="bet-button" type="button">Bet: 5</button>
+      <button id="restart" type="button">Restart Game</button>
+    </div>
+  </div>
+
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

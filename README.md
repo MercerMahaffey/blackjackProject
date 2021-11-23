@@ -1,7 +1,7 @@
 # Blackjack
 
 
-This is an exercise to create a funcitioning BlackJack game usign HTML, CSS, and JavaScript over the course of one weekend:
+This is an exercise to create a funcitioning BlackJack game usign HTML, CSS, and JavaScript over the course of a weekend:
 
 
 ![Demo of the game](./images/blackjackDemo.gif)
